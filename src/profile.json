@@ -1,0 +1,106 @@
+{
+	"title": "Full Stack JS Developer",
+	"summary": "I'm passionate about Computer Software development, looking always for different and most efficient solutions to daily problems of clients. Always growing as a person and as a co worker, looking always to give my best for the company I'm working with.",
+	"studies": [
+		{
+			"institute": "Letterkenny Institute of Technology",
+			"logo": "../images/lyitLogo.jpg",
+			"url": "http://www.ciens.ucv.ve/",
+			"title": "Bachelor's in Applied Computing",
+			"durationInYears": "4",
+			"graduationYear": 2015
+		},
+		{
+			"institute": "Loreto Community School Milford",
+			"logo": "../images/schoolIcon.png",
+			"url": "http://www.ciens.ucv.ve/",
+			"title": "Irish Leaving Cert",
+			"durationInYears": "6",
+			"graduationYear": 2011
+		}
+	],
+	"certifications": [
+		{
+			"logo": "../images/lyitLogo.jpg",
+			"url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
+			"title": "AWS Certified Solutions Architect - Associate",
+			"issuer": "Amazon Web Services",
+			"issueDate": "2018-09-01",
+			"expiryDate": "2020-09-01",
+			"verificationLink": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-13&ci=AWS00487431"
+		},
+		{
+			"logo": "../images/lyitLogo.jpg",
+			"url": "https://education.oracle.com/es/oracle-certified-associate-java-se-8-programmer/trackp_333",
+			"title": "Oracle Certified Associate, Java SE 8 Programmer",
+			"issuer": "Oracle",
+			"issueDate": "2016-05-01",
+			"verificationLink": "https://www.youracclaim.com/badges/aa466aec-ddbc-4e67-8038-aa8466a4aef9/linked_in_profile"
+		}
+	],
+	"experiences": [
+		{
+			"companyName": "Caytons Cyber",
+			"logo": "../images/caytonsCyber.png",
+			"url": "https://www.servicerocket.com/",
+			"roles": [
+				{
+					"title": "Full-stack Developer",
+					"description": "[TO DO]",
+					"startDate": "2016-10-01",
+					"currentJob": true,
+					"location": "London, United Kingdom"
+				}
+			]
+		},
+		{
+			"companyName": "Hunter Apparel Solutions",
+			"logo": "../images/hunters.jpg",
+			"url": "http://www.alaya.cl/",
+			"roles": [
+				{
+					"title": "Project Lead",
+					"description": "[TO DO]",
+					"startDate": "2015-08-01",
+					"endDate": "2016-07-31",
+					"location": "Derry, Northern Ireland"
+				}
+			]
+		},
+		{
+			"companyName": "Whoriskey's Eurospar",
+			"logo": "../images/eurospar.jpg",
+			"url": "http://www.alaya.cl/",
+			"roles": [
+				{
+					"title": "Customer Advisor",
+					"description": "[TO DO]",
+					"startDate": "2011-09-01",
+					"endDate": "2015-04-15",
+					"location": "Ramelton, Rep. of Ireland"
+				},
+				{
+					"title": "Apprentice Butcher",
+					"description": "[TO DO]",
+					"startDate": "2011-09-01",
+					"endDate": "2015-04-15",
+					"location": "Ramelton, Rep. of Ireland"
+				}
+			]
+		},
+		{
+			"companyName": "Argos",
+			"logo": "../images/argosImg.png",
+			"url": "https://www.ibm.com/ve-es/",
+			"roles": [
+				{
+					"title": "Customer Advisor",
+					"description": "[TO DO].",
+					"startDate": "2009-11-01",
+					"endDate": "2011-08-01",
+					"location": "Letterkenny, Rep. of Ireland"
+				}
+			]
+		}
+	]
+}
