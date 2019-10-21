@@ -3,9 +3,9 @@
 	"summary": "I'm passionate about Computer Software development, looking always for different and most efficient solutions to daily problems of clients. Always growing as a person and as a co worker, looking always to give my best for the company I'm working with.",
 	"studies": [
 		{
-			"institute": "Letterkenny Institute of Technology",
+			"institute": "LYIT (Letterkenny Institute of Technology)",
 			"logo": "../images/lyitLogo.jpg",
-			"url": "http://www.ciens.ucv.ve/",
+			"url": "https://www.lyit.ie/",
 			"title": "Bachelor's in Applied Computing",
 			"durationInYears": "4",
 			"graduationYear": 2015
@@ -13,36 +13,17 @@
 		{
 			"institute": "Loreto Community School Milford",
 			"logo": "../images/schoolIcon.png",
-			"url": "http://www.ciens.ucv.ve/",
+			"url": "http://www.loretomilford.com/",
 			"title": "Irish Leaving Cert",
 			"durationInYears": "6",
 			"graduationYear": 2011
-		}
-	],
-	"certifications": [
-		{
-			"logo": "../images/lyitLogo.jpg",
-			"url": "https://aws.amazon.com/certification/certified-solutions-architect-associate/",
-			"title": "AWS Certified Solutions Architect - Associate",
-			"issuer": "Amazon Web Services",
-			"issueDate": "2018-09-01",
-			"expiryDate": "2020-09-01",
-			"verificationLink": "https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2018-09-13&ci=AWS00487431"
-		},
-		{
-			"logo": "../images/lyitLogo.jpg",
-			"url": "https://education.oracle.com/es/oracle-certified-associate-java-se-8-programmer/trackp_333",
-			"title": "Oracle Certified Associate, Java SE 8 Programmer",
-			"issuer": "Oracle",
-			"issueDate": "2016-05-01",
-			"verificationLink": "https://www.youracclaim.com/badges/aa466aec-ddbc-4e67-8038-aa8466a4aef9/linked_in_profile"
 		}
 	],
 	"experiences": [
 		{
 			"companyName": "Caytons Cyber",
 			"logo": "../images/caytonsCyber.png",
-			"url": "https://www.servicerocket.com/",
+			"url": "https://www.caytonscyber.com/",
 			"roles": [
 				{
 					"title": "Full-stack Developer",
@@ -56,7 +37,7 @@
 		{
 			"companyName": "Hunter Apparel Solutions",
 			"logo": "../images/hunters.jpg",
-			"url": "http://www.alaya.cl/",
+			"url": "https://www.hunterapparelsolutions.com/",
 			"roles": [
 				{
 					"title": "Project Lead",
@@ -70,7 +51,7 @@
 		{
 			"companyName": "Whoriskey's Eurospar",
 			"logo": "../images/eurospar.jpg",
-			"url": "http://www.alaya.cl/",
+			"url": "https://www.eurospar.ie/find-store/eurospar-ramelton/",
 			"roles": [
 				{
 					"title": "Customer Advisor",
@@ -91,7 +72,7 @@
 		{
 			"companyName": "Argos",
 			"logo": "../images/argosImg.png",
-			"url": "https://www.ibm.com/ve-es/",
+			"url": "https://www.argos.ie/",
 			"roles": [
 				{
 					"title": "Customer Advisor",
