@@ -1,87 +1,90 @@
 {
-	"title": "Full Stack JS Developer",
-	"summary": "I'm passionate about Computer Software development, looking always for different and most efficient solutions to daily problems of clients. Always growing as a person and as a co worker, looking always to give my best for the company I'm working with.",
-	"studies": [
-		{
-			"institute": "LYIT (Letterkenny Institute of Technology)",
-			"logo": "../images/lyitLogo.jpg",
-			"url": "https://www.lyit.ie/",
-			"title": "Bachelor's in Applied Computing",
-			"durationInYears": "4",
-			"graduationYear": 2015
-		},
-		{
-			"institute": "Loreto Community School Milford",
-			"logo": "../images/schoolIcon.png",
-			"url": "http://www.loretomilford.com/",
-			"title": "Irish Leaving Cert",
-			"durationInYears": "6",
-			"graduationYear": 2011
-		}
-	],
-	"experiences": [
-		{
-			"companyName": "Caytons Cyber",
-			"logo": "../images/caytonsCyber.png",
-			"url": "https://www.caytonscyber.com/",
-			"roles": [
-				{
-					"title": "Full-stack Developer",
-					"description": "[TO DO]",
-					"startDate": "2016-10-01",
-					"currentJob": true,
-					"location": "London, United Kingdom"
-				}
-			]
-		},
-		{
-			"companyName": "Hunter Apparel Solutions",
-			"logo": "../images/hunters.jpg",
-			"url": "https://www.hunterapparelsolutions.com/",
-			"roles": [
-				{
-					"title": "Project Lead",
-					"description": "[TO DO]",
-					"startDate": "2015-08-01",
-					"endDate": "2016-07-31",
-					"location": "Derry, Northern Ireland"
-				}
-			]
-		},
-		{
-			"companyName": "Whoriskey's Eurospar",
-			"logo": "../images/eurospar.jpg",
-			"url": "https://www.eurospar.ie/find-store/eurospar-ramelton/",
-			"roles": [
-				{
-					"title": "Customer Advisor",
-					"description": "[TO DO]",
-					"startDate": "2011-09-01",
-					"endDate": "2015-04-15",
-					"location": "Ramelton, Rep. of Ireland"
-				},
-				{
-					"title": "Apprentice Butcher",
-					"description": "[TO DO]",
-					"startDate": "2011-09-01",
-					"endDate": "2015-04-15",
-					"location": "Ramelton, Rep. of Ireland"
-				}
-			]
-		},
-		{
-			"companyName": "Argos",
-			"logo": "../images/argosImg.png",
-			"url": "https://www.argos.ie/",
-			"roles": [
-				{
-					"title": "Customer Advisor",
-					"description": "[TO DO].",
-					"startDate": "2009-11-01",
-					"endDate": "2011-08-01",
-					"location": "Letterkenny, Rep. of Ireland"
-				}
-			]
-		}
-	]
+  "title": "Cathal Diver",
+  "summary": "I'm passionate Software enabout Computer Software development, looking always for different and most efficient solutions to daily problems of clients. Always growing as a person and as a co worker, looking always to give my best for the company I'm working with.",
+  "studies": [
+    {
+      "institute": "LYIT (Letterkenny Institute of Technology)",
+      "logo": "../images/lyitLogo.jpg",
+      "url": "https://www.lyit.ie/",
+      "title": "Bachelor's in Applied Computing",
+      "durationInYears": "4",
+      "graduationYear": 2015
+    },
+    {
+      "institute": "Loreto Community School Milford",
+      "logo": "../images/schoolIcon.jpg",
+      "url": "http://www.loretomilford.com/",
+      "title": "Irish Leaving Cert",
+      "durationInYears": "6",
+      "graduationYear": 2011
+    }
+  ],
+  "experiences": [
+    {
+      "companyName": "Fabric",
+      "companyDescription": [
+        "Fabric is the headless commerce platform purpose-built for growth. Customers like BuildDirect, ABC Carpet & Home and Universal Lacrosse trust Fabric for its open and modular design, allowing them to be live in weeks without having to replatform. Fabric is a force multiplier on retailers’ existing technology investments proven to grow digital revenue by up to 3x."
+      ],
+      "logo": "../images/fabric.jpg",
+      "url": "https://www.fabric.inc/",
+      "location": "Vancouver, BC, Canada",
+      "roles": [
+        {
+          "title": "Lead Software Development Engineer",
+          "description": "I am currently working as the Lead Software Development Engineer on our Integrations team which manages the communication and traffic between internal entity communication as well as external data traffic. The projects are primarily focused on a hybrid of event driven and streaming architecture. technologies being used include AWS Event Bridge, NodeJs, Serverless, AWS Lambda, TypeScript. I am also one of the engineers responsible for the implementation and maintenance of our companies CI/CD Pipeline. I have a team of engineers and QA's directly reporting into me that I manage as well as being an individual contributor myself.",
+          "startDate": "2020-08-25",
+          "currentJob": true
+        },
+        {
+          "title": "Software Development Engineer",
+          "description": "I worked as the sole developer on a team building e-commerce cart and checkout functionality. managing the cart state machine with its continuous interactions and updates from other team entities like our PIM, Pricing, Promo and Inventory among other. Primarily backend, the technologies used were NodeJs, Serverless, AWS Lambda, SQS, SNS, and third party integrations such as Stripe and Adyen.",
+          "startDate": "2019-10-28",
+          "endDate": "2020-08-24"
+        }
+      ]
+    },
+    {
+      "companyName": "Caytons Cyber",
+      "companyDescription": [
+        "Within Caytons Cyber we have decades of IT experience and a similar amount of legal and insurance experience with our IT company stemming from the success of our Law Firm.",
+        "Having realised some time ago that there was a gap in the market for certain IT solutions in the insurance industry, we decided to form Caytons Cyber. No one had developed a single IT platform that supported the two main insurance functions, so we decided to develop a sophisticated platform which could be used by Insurers, MGAs and other underwriting and claims organisations to provide a single solution to their underwriting, claims and compliance needs. We didn’t stop there, as being borne from a law firm, the legal expertise and cohesion with software development gave rise to the creation of our software escrow product. Through our own contractual relationships we have had to utilise software escrow and saw that there were flaws in the traditional model, so we have developed a solution which streamlines the whole process from contract creation to e-signing online with unlimited escrow package updates and physical space.",
+        "With this changing environment, we are often approached to think of alternative approaches to longstanding processes that businesses find may no longer be serving them best, such as cutting distribution and administration costs by building extranet portals for customers to access clients’ services. Therefore, we are always pioneering new methods and refining our products to adapt to changing needs."
+      ],
+      "logo": "../images/caytonsCyber.png",
+      "url": "https://www.caytonscyber.com/",
+      "location": "London, United Kingdom",
+      "roles": [
+        {
+          "title": "Full-stack Developer",
+          "description": "I worked at Cayton's Cyber initially building enterprise applications for the Lloyd's of London insurance industry for claims management, which were primarily build in ColdFusion, Microsoft SQL and a Bootstrap UI. After a year I transitioned into a new role and leading the development of a new insurance product for insurance claims quotation generation. This type of platform was designed to be used by Insurance underwriters. This new platform was a greenfield project built using Full Stack JavaScript. The technologies used were MongoDB, ReactJS, NodeJS and ExpressJS.",
+          "startDate": "2016-10-01",
+          "endDate": "2019-10-27"
+        }
+      ]
+    },
+    {
+      "companyName": "Hunter Apparel Solutions",
+      "companyDescription": [
+        "Hunter began as a bespoke tailoring specialist in 1936, but has evolved into a pioneer in the creation and management of technology driven professional clothing. Over the years our professional clothing designs created through HunterONE®, have changed how businesses in a wide range of sectors look, but the efficiency of HunterCARE® and HunterPAC® have transformed the way many more operate.",
+
+        "Professional apparel from Hunter is different because we will make our software work uniquely for you. This is work, smart, wear.",
+
+        "OUR PEOPLE",
+        "With a large, diverse team of highly experienced people, Hunter’s software engineers, designers, tailors and problem solvers work together to create smart work wear.",
+
+        "Our ideas and innovations come from our people. Every one of our team is supported and encouraged to challenge and innovate. We are diligent and determined. Together, we are ahead of the game. Together we are Hunter."
+      ],
+      "logo": "../images/hunters.jpg",
+      "url": "https://www.hunterapparelsolutions.com/",
+      "location": "Derry, Northern Ireland",
+      "roles": [
+        {
+          "title": "Software Engineer - Project Lead",
+          "description": "I worked as a Software Developer building an automated laundry tracking application using a combination of a web based software platform as well as a hardware equipped RFID enabled smart laundrette. The project I worked on was based on equipping PPE with RFID tracking chips, when a piece of PPE entered into the laundrette the PPE was automatically logged by one of the RFID scanners in the smart laundrette. As the PPE proceeds through the laundry process its status would get logged by the laundry stages RFID scanner. That data in turn would be synced into a MySQL database with a Java backend and a VanillaJS/HTML frontend that would allow users to log into the site and see the status of their PPE equipment in the laundrette.",
+          "startDate": "2015-08-01",
+          "endDate": "2016-07-31"
+        }
+      ]
+    }
+  ]
 }

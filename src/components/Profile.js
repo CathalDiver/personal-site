@@ -1,85 +1,138 @@
-import React from 'react';
+import React from 'react'
+import { Jumbotron, Container } from 'reactstrap'
 import {
-	Jumbotron,
-	Container,
-	TabContent,
-	TabPane,
-	Nav,
-	NavItem,
-	NavLink
-} from 'reactstrap';
-import classnames from 'classnames';
-import Experience from './Experience';
-import Education from './Education';
-import profile from '../profile.json';
+  Tabs,
+  Tab,
+  Typography,
+  Box,
+  AppBar,
+  Grid,
+  ButtonBase
+} from '@material-ui/core'
+import profile from '../profile.json'
+import PropTypes from 'prop-types'
+import SwipeableViews from 'react-swipeable-views'
+import { makeStyles, useTheme } from '@material-ui/core/styles'
+import cathalPic from '../images/cathalPic.jpg'
 
-class Profile extends React.Component {
-	constructor(props) {
-		super(props);
+import Experience from './Experience'
+import Education from './Education'
+import ComingSoon from './ComingSoon'
 
-		this.toggle = this.toggle.bind(this);
-		this.state = {
-			activeTab: '1'
-		};
-	}
+function TabPanel(props) {
+  const { children, value, index, ...other } = props
 
-	toggle(tab) {
-		if (this.state.activeTab !== tab) {
-			this.setState({
-				activeTab: tab
-			});
-		}
-	}
-
-	render() {
-		return (
-			<div>
-				<Jumbotron>
-					<Container>
-						<h1 className="display-3">{profile.title}</h1>
-						<p className="lead">{profile.summary}</p>
-					</Container>
-				</Jumbotron>
-
-				<Container>
-					<Nav tabs>
-						<NavItem>
-							<NavLink
-								className={classnames({
-									active: this.state.activeTab === '1'
-								})}
-								onClick={() => {
-									this.toggle('1');
-								}}
-							>
-								Experience
-							</NavLink>
-						</NavItem>
-						<NavItem>
-							<NavLink
-								className={classnames({
-									active: this.state.activeTab === '2'
-								})}
-								onClick={() => {
-									this.toggle('2');
-								}}
-							>
-								Education
-							</NavLink>
-						</NavItem>
-					</Nav>
-					<TabContent activeTab={this.state.activeTab}>
-						<TabPane tabId="1">
-							<Experience />
-						</TabPane>
-						<TabPane tabId="2">
-							<Education />
-						</TabPane>
-					</TabContent>
-				</Container>
-			</div>
-		);
-	}
+  return (
+    <div
+      role="tabpanel"
+      hidden={value !== index}
+      id={`full-width-tabpanel-${index}`}
+      aria-labelledby={`full-width-tab-${index}`}
+      {...other}
+    >
+      {value === index && (
+        <Box p={5}>
+          <Typography>{children}</Typography>
+        </Box>
+      )}
+    </div>
+  )
 }
 
-export default Profile;
+TabPanel.propTypes = {
+  children: PropTypes.node,
+  index: PropTypes.any.isRequired,
+  value: PropTypes.any.isRequired
+}
+
+function a11yProps(index) {
+  return {
+    id: `full-width-tab-${index}`,
+    'aria-controls': `full-width-tabpanel-${index}`
+  }
+}
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    backgroundColor: theme.palette.background.paper
+  },
+  topContainer: {
+    backgroundColor: '#64b5f6'
+  },
+  image: {
+    height: '20vmin',
+    marginRight: '10px',
+    borderRadius: '150px'
+  }
+}))
+
+export default function Profile() {
+  const classes = useStyles()
+  const theme = useTheme()
+  const [value, setValue] = React.useState(0)
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue)
+  }
+
+  const handleChangeIndex = (index) => {
+    setValue(index)
+  }
+
+  return (
+    <div className={classes.root}>
+      <Jumbotron className={classes.topContainer}>
+        <Container>
+          <Grid container spacing={10}>
+            <Grid item>
+              <ButtonBase>
+                <img
+                  src={cathalPic}
+                  className={classes.image}
+                  alt="Cathal Diver"
+                />
+              </ButtonBase>
+            </Grid>
+            <Grid item xs={12} sm container>
+              <h1 className="display-3">{profile.title}</h1>
+              <p className="lead">{profile.summary}</p>
+            </Grid>
+          </Grid>
+        </Container>
+      </Jumbotron>
+      <AppBar position="static" color="default">
+        <Tabs
+          value={value}
+          indicatorColor="primary"
+          textColor="primary"
+          onChange={handleChange}
+          aria-label="disabled tabs example"
+          centered
+        >
+          <Tab label="Professional" {...a11yProps(0)} />
+          <Tab label="Educational" {...a11yProps(1)} />
+          <Tab label="Skills" {...a11yProps(2)} />
+          <Tab label="About Me" {...a11yProps(3)} />
+        </Tabs>
+      </AppBar>
+      <SwipeableViews
+        axis={theme.direction === 'rtl' ? 'x-reverse' : 'x'}
+        index={value}
+        onChangeIndex={handleChangeIndex}
+      >
+        <TabPanel value={value} index={0} dir={theme.direction}>
+          <Experience />
+        </TabPanel>
+        <TabPanel value={value} index={1} dir={theme.direction}>
+          <ComingSoon />
+        </TabPanel>
+        <TabPanel value={value} index={2} dir={theme.direction}>
+          <ComingSoon />
+        </TabPanel>
+        <TabPanel value={value} index={3} dir={theme.direction}>
+          <ComingSoon />
+        </TabPanel>
+      </SwipeableViews>
+    </div>
+  )
+}
